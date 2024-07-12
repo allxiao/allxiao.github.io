@@ -14,6 +14,7 @@ description: Steps I followed to setup the Chirpy Jekyll theme in GitHub Pages.
 2. Go to the repository `https://github.com/USERNAME/USERNAME.github.io` and setup the deploy actions.
    1. Select *Settings* tab, then click *Pages* in the left navigation bar.
    2. In the **Source** section, select `GitHub Actions` from the dropdown menu.
+
    After this, the site will be built and deployed when you push to the main branch.
 3. Clone the repository to your local disk, update `_config.yml`{: .filepath} as needed.
    1. If you work on Windows, add the `tzinfo-data` dependency in `Gemfile`{: .filepath}
