@@ -15,7 +15,10 @@ description: Steps I followed to setup the Chirpy Jekyll theme in GitHub Pages.
    1. Select *Settings* tab, then click *Pages* in the left navigation bar.
    2. In the **Source** section, select `GitHub Actions` from the dropdown menu.
    After this, the site will be built and deployed when you push to the main branch.
-3. Clone the repository to your local disk, update `_config.yml` as needed.
+3. Clone the repository to your local disk, update `_config.yml`{: .filepath} as needed.
+   1. If you work on Windows, add the `tzinfo-data` dependency in `Gemfile`{: .filepath}
+   2. Run `bundle install` to install the dependencies
+   3. Run `bundle exec jekyll s` to start the local dev server at http://127.0.0.1:4000
 4. Follow [Customize the Favicon](https://chirpy.cotes.page/posts/customize-the-favicon/) to update the favicons.
 5. Commit and push to the remote repository
 6. Check the *Actions* tab in the repository site. When the build and deploy actions complete, visit `https://USERNAME.github.io`.
