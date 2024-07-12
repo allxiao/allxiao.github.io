@@ -21,3 +21,11 @@ task :publish, [:file] do |t, args|
   end
   sh "bundle exec jekyll publish \"#{file}\""
 end
+
+desc "Start the development server"
+task :serve do
+  sh "bundle exec jekyll serve"
+end
+
+task :s => :serve
+task :dev => :serve

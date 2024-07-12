@@ -13,7 +13,7 @@ Codebase that compiles to the site [Note It][noteit].
 2. Start local development server
 
    ```console
-   $ bundle exec jekyll s
+   $ rake s
    ```
 
 ## Compose New Posts
