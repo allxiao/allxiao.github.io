@@ -6,6 +6,8 @@ gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
 
 gem 'tzinfo-data' if Gem.win_platform?
 
+gem 'jekyll-compose', group: [:jekyll_plugins]
+
 group :test do
   gem "html-proofer", "~> 5.0"
 end
