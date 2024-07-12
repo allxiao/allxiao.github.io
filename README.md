@@ -21,7 +21,7 @@ Codebase that compiles to the site [Note It][noteit].
 1. Create a draft post
 
    ```ruby
-   bundle exec jekyll draft "My New Post Title"
+   rake draft["My New Post Title"]
    ```
 
    This creates the file `_drafts/my-new-post-title.md`.
@@ -29,7 +29,7 @@ Codebase that compiles to the site [Note It][noteit].
 3. Post the draft
 
    ```ruby
-   bundle exec jekyll post _drafts/my-new-post-title.md
+   rake post[my-new-post-title]
    ```
 
    This will move the post from `_drafts` to `_posts`, rename it with a date prefix, and also update the `date` field
