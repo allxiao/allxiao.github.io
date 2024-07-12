@@ -4,7 +4,7 @@ Codebase that compiles to the site [Note It](note-it).
 
 ## Acknowledgements
 
-This site is produced by the [Chirpy Jekyll Theme](chirpy)
+This site is based on the [Chirpy Jekyll Theme](chirpy).
 
 ## License
 
