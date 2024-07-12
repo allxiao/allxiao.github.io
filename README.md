@@ -36,14 +36,11 @@ Codebase that compiles to the site [Note It][noteit].
    in the front matters.
 4. Commit and push to the upstream.
 
-## Acknowledgements
-
-This site is based on the [Chirpy Jekyll Theme][chirpy].
-
 ## License
 
-This work is published under [MIT][mit] License.
+This work is published under [MIT][mit] License. It is based on [chirpy-starter][chirpy] and the license is included
+in the end of the license file.
 
 [noteit]: https://allxiao.github.io
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+[chirpy]: https://github.com/cotes2020/chirpy-starter
+[mit]: LICENSE
