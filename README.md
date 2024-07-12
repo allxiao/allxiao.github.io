@@ -1,6 +1,6 @@
 # Note It
 
-Codebase that compiles to the site [Note It](noteit).
+Codebase that compiles to the site [Note It][noteit].
 
 ## Prepare Environment
 
@@ -24,7 +24,7 @@ Run bundle to install all the required RubyGems dependencies.
 
 ## Acknowledgements
 
-This site is based on the [Chirpy Jekyll Theme](chirpy).
+This site is based on the [Chirpy Jekyll Theme][chirpy].
 
 ## License
 
